@@ -1,4 +1,1 @@
-# WED201c
-
-This repository is for subject WED201c Web Design in Bachelor of Software Engineering in FPT University Vietnam featuring Coursera Web Design for Everybody: Basics of Web Development \& Coding Specialization
-
+This repository is for subject WED201c Web Design in Bachelor of Software Engineering in FPT University Vietnam
