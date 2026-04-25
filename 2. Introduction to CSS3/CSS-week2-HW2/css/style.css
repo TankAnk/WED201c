@@ -1,0 +1,99 @@
+body{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 150%;
+}
+
+header
+{
+	background-color: #f0f0f0;
+}
+
+footer
+{
+	background-color: #add9e3;
+	font-family: Georgia, serif
+}
+
+main
+{
+	background-color: #feff7a;
+	font-size: 100%;
+}
+
+/*
+li
+{
+	display: inline-block;
+	width: 30%;
+	text-align: center;
+	line-height: 3.0;
+}
+*/
+
+h1
+{
+	text-align: center;
+	font-family: 'Lucida Console', 'Courier New','Verdana', 'Georgia', 'Palatino', 'Garamond', 'Baskerville', serif;
+	color: #2722ff;
+}
+
+p
+{
+	line-height: 1.5;
+}
+
+nav
+{
+	display: inline-block;
+	width: 100%;
+}
+
+nav img
+{
+	display: inline-block;
+	width: 10%;
+}
+
+.img_grid
+{
+	display: inline-grid;
+	grid-template-columns: [c1] 40% [c2] 40% [c3];
+	justify-content: space-evenly;
+	align-items: center;
+	justify-items: center;
+	gap: 1vw 1vw;
+}
+
+.img_grid img
+{
+	width: 100%;
+}
+
+.nav_flex
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+li
+{
+	list-style-type: none;
+}
+
+.img_flex
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+a[href = "#main"]
+{
+	display: block;
+	background-color: white;
+}

@@ -1,0 +1,50 @@
+body{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 150%;
+}
+
+header
+{
+	background-color: #f0f0f0;
+}
+
+nav, footer
+{
+	background-color: #add9e3;
+	font-family: Georgia, serif
+}
+
+main
+{
+	background-color: #feff7a;
+	font-size: 100%;
+}
+
+li
+{
+	display: inline-block;
+	width: 30%;
+	text-align: center;
+	line-height: 3.0;
+}
+
+header img
+{	
+	display: block;
+	text-align: center;
+	width: 25%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1
+{
+	text-align: center;
+	font-family: 'Lucida Console', 'Courier New','Verdana', 'Georgia', 'Palatino', 'Garamond', 'Baskerville', serif;
+	color: #2722ff;
+}
+
+p
+{
+	line-height: 1.5;
+}

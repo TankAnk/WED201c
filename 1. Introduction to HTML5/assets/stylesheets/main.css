@@ -1,0 +1,45 @@
+.montserrat
+{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body
+{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+h1
+{
+  color: #F54927;
+  font-size: 40px;
+}
+
+h2
+{
+	font-size: 30px;
+}
+
+.campus_img
+{
+	text-align: center;
+}
+
+.campus_img img
+{
+	width: 30%;
+}
+
+.logo
+{
+	width: 5vw;
+	vertical-align: middle;
+}
+
+li
+{
+	font-height: 2.5;
+}

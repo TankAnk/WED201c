@@ -1,0 +1,120 @@
+.jost {
+  font-family: "Jost", "Verdana", "Helvetica", "Arial", "Lucida Console", "Courier New", monospace;
+  font-style: normal;
+}
+
+body
+{
+	background-color: #92c9d773;
+	font-family: "Jost", sans-serif
+}
+
+a
+{
+	text-decoration: none;
+}
+
+.skip_link {
+	display: block;
+	text-align: center;
+	position: absolute;
+	top: -500px;
+	left: 0;
+	background: white;
+	color: black;
+	padding: 8px;
+	font-size: 2vw;
+}
+
+.skip_link:focus
+{
+	position: static;
+	display: block;
+	top: 0;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+li
+{
+	display: inline-block;
+	font-size: 2vw;
+	padding: 0.5vh 0.5vw;
+	border-width: 0.5vw;
+	border-radius: 5px;
+	background-color: #e8e6e6;
+}
+
+li:hover {
+  background-color: #b2dfdb;
+}
+
+h1
+{
+	text-align: center;
+	font-size: 5vw;
+	color: #75ba75;
+}
+
+h2
+{
+	text-align: center;
+	font-size: 3vw;
+	color: #75ba75;
+}
+
+h1 img
+{
+	width: 10%;
+	height: 10%;
+}
+
+li:active
+{
+	background-color: #f8f8f6;
+}
+
+#prank_button
+{
+	background-color: #7d77e6;
+	border: 0.6vw inset black;
+	padding: 2vh 2vw;
+	text-align: center;
+	display: inline-block;
+	font-size: 5vw;
+	cursor: pointer;
+	font-family: "Jost", "Verdana", "Helvetica", "Arial", "Lucida Console", "Courier New", monospace;
+}
+
+#prank_button:active
+{
+	border: 0.5vw outset black;
+}
+
+#prank_zone {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: transform 0.3s ease;
+}
+
+img {
+  border: 4px solid #444;
+  padding: 6px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 4px 4px 0px #333;
+}
+
+#cat {
+  transform: rotate(-10deg);
+}
+
+#dog {
+  transform: rotate(10deg);
+}

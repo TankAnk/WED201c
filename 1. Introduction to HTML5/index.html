@@ -1,0 +1,137 @@
+	<!--
+	Grading Checklist
+	doctype, head element, body element
+	At least three semantic tags including main and h1
+	At least one list with a minimum of three items
+	At least three images
+	At least one link to an external source
+	Validate your site
+	Host and share your site
+	Peer review 3 other sites
+
+	https://webaim.org/resources/htmlcheatsheet/HTML%20Semantics%20and%20Accessibility%20Cheat%20Sheet.pdf
+	-->
+
+	<!DOCTYPE html>
+	<html lang = "en">
+		<head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+			<title>My University List</title>
+			<link rel = "stylesheet" href = "assets/stylesheets/main.css">
+			<link rel = "icon" type="image/png" href = "assets/icons/education.png">
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+		</head>
+		
+		<body>
+			<header>
+				<h1>My Top 3 University Campus Ranking</h1>
+				<p>This is my personal ranking of 3 university campuses that I have been to based on their amenities.</p>
+			</header>
+			
+			<nav>
+				<h2>Skip to main content</h2>
+				<ul>
+					<li><a href = "#wsu">Jump to #1</a></li>
+					<li><a href = "#fpt">Jump to #2</a></li>
+					<li><a href = "#hanu">Jump to #3</a></li>
+				</ul>
+			</nav>
+			
+			<section id = "criteria">
+				<h2>Ranking Criteria</h2>
+				<ol>
+					<li>Campus design</li>
+					<li>Library facilities</li>
+					<li>Food court quality</li>
+					<li>Transportation convenience</li>
+					<li>Student services</li>
+				</ol>
+			</section>
+			
+			<aside id = "tip">
+				<h2>Pro Tip</h2>
+				<p>Click on the university logo to explore more!</p>
+			</aside>
+			
+			<hr>
+			
+			<main>
+				<section id = "wsu">
+					<h2>
+						1. Western Sydney University (Parramatta South)
+						<a href = "https://www.westernsydney.edu.au/future/our-campuses/parramatta-south-campus" title = "Go to WSU Parramatta South Official Website" target = "_blank">
+							<img src = "assets/images/wsu_logo.png" class = "logo" alt = "WSU Logo">
+						</a>
+					</h2>
+					<div class = "campus_img">
+						<img src = "assets/images/wsu.jpg" alt = "WSU Parramatta South Campus Front View">
+						<img src = "assets/images/whitlam_library.jpg" alt = "WSU Whitlam Library">
+						<img src = "assets/images/boiler_house.jpg" alt = "WSU Boilerhouse Side View">
+					</div>
+					<ul>
+						<li>Spacious and modern campus layout with academic buildings, open green spaces, historic elements, social spaces, and recreational areas.</li>
+						<li>The Whitlam Library offers both physical and digital learning resources, quiet study zones, group study areas, and support from staff.</li>
+						<li>There are cafés and snack outlets available. My personal favourite was Boilerhouse dining area with lunch deal $6.5AUD for the gigantic fries with gravy.</li>
+						<li>Highly accessible by public transport. Spacious parking and multiple bus routes stop directly outside the campus. And the best part is free shuttle bus service connecting Parramatta City, North, and South campuses.</li>
+						<li>Excellent student support services via the Student Services Hub including welfare support, campus security, study assistance, etc. I would recommend face-to-face consultant over email as the ammount of mail sent is substantial.</li>
+						<li>Overall: 10/10</li>
+					</ul>
+				</section>
+				
+				<hr>
+				
+				<section id = "fpt">
+					<h2>
+						2. FPT University (Hanoi)
+						<a href = "https://daihoc.fpt.edu.vn/hn/" title = "Go to FPTU Hanoi Official Website" target = "_blank">
+							<img src = "assets/images/fpt_logo.png" alt = "FPTU Logo" class = "logo">
+						</a>
+					</h2>
+					<div class = "campus_img">
+						<img src = "assets/images/alpha.jpg" alt = "FPTU Alpha Building">
+						<img src = "assets/images/fpt_library.jpeg" alt = "FPTU Library">
+						<img src = "assets/images/fpt_dom.jpeg" alt = "FPTU Student Dom">
+					</div>
+					<ul>
+						<li>Modern, unique and visually appealing design. The campus has 30ha of green spaces, open walkways, and academic buildings. My personal favourite is Alpha building that resembles a dragon ascending.</li>
+						<li>Large collection of textbooks, e-books, and digital learning resources. The campus also provides quiet both study spaces and collaborative learning areas. There is also a public piano that can be used anytime.</li>
+						<li>Two main canteens serve a wide range of meals, drinks, and snacks throughout the day. The campus also includes convenience stores and service areas, making daily student life very comfortable.</li>
+						<li>Although the Hoa Lac campus is located outside the city center, transportation is relatively convenient thanks to dedicated bus routes and FPT shuttle services. However, the rush hour is crazy.</li>
+						<li>Robust student support services including accommodation support, laundry, convenience stores, health support, sports facilities, and various student clubs and activities.</li>
+						<li>Overall: 9/10</li>
+					</ul>
+				</section>
+				
+				<hr>
+				
+				<section id = "hanu">
+					<h2>
+						3. HANU aka Hanoi University (Hanoi)
+						<a href = "https://hanu.vn/" title = "Go to HANU Official website">
+							<img src = "assets/images/hanu_logo.png" class = "logo" alt = "HANU Logo" target = "_blank">
+						</a>
+					</h2>
+					<div class = "campus_img">
+						<img src = "assets/images/hanu_top_view.webp" alt = "HANU Main Campus">
+						<img src = "assets/images/hanu_entrance.jpg" alt = "HANU Entrance">
+						<img src = "assets/images/hanu_library.webp" alt = "Student Dom">
+					</div>
+					<ul>
+						<li>Clean and professional urban campus design with modern academic buildings and well-organized learning spaces. Despite the modest campus area, it makes efficient use of space with lecture halls, open courtyards, and student gathering areas.</li>
+						<li>Very quiet environment for study and research. Students have access to books, journals, digital resources. The library is especially valuable for language and international studies students.</li>
+						<li>Very basic with affordable meals, drinks, and snacks, almost too basic. However, the surrounding Thanh Xuan district provides many cafés and local restaurants.</li>
+						<li>As the university is located right in the center of Hanoi, it is highly accessible by any type of transportation. It is surprisingly less chaotic during rush hour compared to other locations.</li>
+						<li>HANU provides essential student services including academic advising, library services, language labs, etc. The university is especially well known for supporting students in foreign language and international programs.</li>
+						<li>Overall: 9/10</li>
+					</ul>
+				</section>
+				
+			</main>
+			
+		</body>
+
+	</html>
