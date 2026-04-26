@@ -149,6 +149,28 @@ footer {
 	padding: 1rem;
 }
 
+.cta_next {
+	margin-top: 1.5rem;
+	font-size: 1.1rem;
+	text-align: center;
+}
+
+.cta_next a {
+	display: inline-block;
+	margin-left: 0.5rem;
+	padding: 0.4rem 0.8rem;
+	background: #2a9d8f;
+	color: white;
+	border-radius: 6px;
+	text-decoration: none;
+	transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.cta_next a:hover {
+	background: #1f776c;
+	transform: scale(1.05);
+}
+
 /* =========================
    MOBILE RESPONSIVE NAV
 ========================= */
