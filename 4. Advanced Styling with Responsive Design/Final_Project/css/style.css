@@ -1,0 +1,160 @@
+.inter
+{
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+
+html
+{
+	font-size: 25px;
+}
+
+body {
+    background-color: #f3f4f6;
+	font-size: 1rem;
+	text-align:center;
+	font-family: "Inter", sans-serif;
+}
+
+main {
+    width: min(90%, 1200px);
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2em;
+	padding: 2rem 1rem;
+    text-align: center;
+	font-weight: 700;
+    letter-spacing: -0.03em;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-family:Arial, sans-serif;
+}
+
+p {
+   font-size: 1em;
+   font-family:Arial, sans-serif;
+}
+
+div img
+{
+	width: 100%;
+	aspect-ratio: 1 / 1;
+    display:block;
+    margin:auto;
+	object-fit: cover;
+}
+
+figure
+{
+	width: 100%;
+	padding: 1rem;
+    border: 2px solid #999;
+    background: white;
+	box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+figcaption {
+    margin-top: 0.8rem;
+    font-weight: 600;
+}
+
+footer {
+    padding: 2rem;
+}
+
+.grid
+{
+	grid-template-columns: 1fr;
+	display: grid;
+	gap: 10px;
+	justify-items: center;
+	text-align: center;
+}
+
+@media screen and (min-width: 772px)
+{
+	html
+	{
+		font-size: 30px;
+	}
+	
+	.grid
+	{
+		grid-template-columns: 1fr 1fr;
+	}
+	
+	figure
+	{
+		width: 80%;
+	}
+
+	figure img
+	{
+		aspect-ratio: 1 / 1;
+		height: auto;
+		display: block;
+		border-radius: 50%;
+		object-fit: cover;
+	}
+	
+	.grid figure:last-child
+	{
+		grid-column: span 2;
+	}
+}
+
+@media screen and (min-width: 992px)
+{
+	html
+	{
+		font-size: 32px;
+	}
+	
+	.grid figure:nth-child(3n) {
+		grid-column: span 2;
+	}
+	
+	figure
+	{
+		width: 50%;
+	}
+	
+	figure img
+	{
+		border-radius: 0%;
+	}
+}
+
+@media (prefers-reduced-motion: reduce)
+{
+	html
+	{
+		scroll-behavior: auto;
+	}	
+}
+
+@media (prefers-color-scheme: dark)
+{
+	body
+	{
+		background-color: #18191b;
+		color: #9ecbff;
+	}
+	
+	a
+	{
+		color: #9ecbff;
+	}
+	
+	figure
+	{
+		background-color: #3d3d3d;
+		color: #f5e6a8;
+		border: 2px solid #999;
+	}
+}
