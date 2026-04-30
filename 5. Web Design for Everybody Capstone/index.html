@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tuan Anh Tran Resume Webpage</title>
+	<link rel="icon" href="images/user-profile.png" type="image/x-icon">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href = "#about">About</a></li>
+				<li><a href = "#skills">Skills</a></li>
+				<li><a href = "#projects">Projects</a></li>
+				<li><a href = "#xp">Experience</a></li>
+			</ul>
+		</nav>
+		
+		<section id = "overview">
+			<img src = "images/Dennis_Ritchie.jpg" alt = "Portrait placeholder of Dennis Ritchie">
+			<h1>Tuan Anh Tran</h1>
+			<h2>Bachelor of Software Engineering at FPT University Hanoi</h2>			
+		</section>
+	</header>
+	
+	
+	<main id = "main">
+		<section id = "about">
+			<h2>About Me</h2>
+			<div class = "about_content">
+				<h3>Hello, World!</h3>
+				<p>My name is Tuan Anh Tran. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			
+			<div class = "about_info">
+				<h3>Basic Information</h3>
+				<dl>
+					<dt>Date of Birth</dt>
+					<dd>DD-MM-YYYY</dd>
+
+					<dt>Email</dt>
+					<dd>sample@gmail.com</dd>
+
+					<dt>Phone</dt>
+					<dd>+123456789</dd>
+
+					<dt>Address</dt>
+					<dd><address>Hanoi, Vietnam</address></dd>
+
+					<dt>Languages</dt>
+					<dd>Vietnamese, English</dd>
+				</dl>
+			</div>
+		</section>
+		
+		<section id = "skills">
+			<h2>Personal Skills</h2>
+				<ul>
+					<li>
+						<h3>HTML</h3>
+						<div 
+							class="skill_bar"
+							role="progressbar"
+							aria-label="HTML skill level"
+							aria-valuenow="90"
+							aria-valuemin="0"
+							aria-valuemax="100">
+
+							<div class="skill_fill html"></div>
+						</div>
+						<span>90%</span>
+					</li>
+
+					<li>
+						<h3>CSS</h3>
+						<div 
+							class="skill_bar"
+							role="progressbar"
+							aria-label="CSS skill level"
+							aria-valuenow="80"
+							aria-valuemin="0"
+							aria-valuemax="100">
+							<div class="skill_fill css"></div>
+						</div>
+						<span>80%</span>
+					</li>
+
+					<li>
+						<h3>JavaScript</h3>
+						<div 
+							class="skill-bar"
+							role="progressbar"
+							aria-label="JavaScript skill level"
+							aria-valuenow="75"
+							aria-valuemin="0"
+							aria-valuemax="100">
+							<div class="skill_fill js"></div>
+						</div>
+						<span>75%</span>
+					</li>
+
+					<li>
+						<h3>C</h3>
+						<div 
+							class="skill-bar"
+							role="progressbar"
+							aria-label="C programming skill level"
+							aria-valuenow="70"
+							aria-valuemin="0"
+							aria-valuemax="100">
+
+							<div class="skill_fill c"></div>
+						</div>
+						<span>70%</span>
+					</li>
+				</ul>
+		</section>
+		
+		<section id = "project">
+			<h2>Projects</h2>
+			<article>
+				<figure>
+					<img src="images/placeholder.jpg" alt="Placeholder screenshot of project 1">
+					<figcaption>My Resume Webpage</figcaption>
+					<p>I tried to make a my resume as a live webpage. I think it's pretty cool even though my goal is not web dev.</p>
+					<p>Tools: </p>
+					<ul>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>JavaScript</li>
+					</ul>
+					<p><a href = "https://github.com/TankAnk/LeetCode_Attempt">Live Demo</a></p>
+					<p><a href = "https://github.com/TankAnk/LeetCode_Attempt">See full source code here</a></p>
+				</figure>
+				
+				<figure>
+					<img src="images/placeholder2.jpg" alt="Placeholder screenshot of project 2">
+					<figcaption>LeetCode Attempt</figcaption>
+					<p>I tried to raw dog LeetCode questions in pure C. It's agony.</p>
+					<p>Tools: Pure C</p>
+					<p><a href = "https://github.com/TankAnk/LeetCode_Attempt">See full source code here</a></p>
+				</figure>
+			</article>
+		</section>
+		
+		<section id = "xp">
+			<h2>Work Experience</h2>
+			<article class = "job job1">
+				<h3>Chief Executive Officer</h3>
+				<p>My House Company</p>
+				<p><time datetime="2024-01">Jan 2024</time> - <time datetime="2025-01">Jan 2025</time></p>
+				<p>Developed my extraordinary gaming and eating skills.</p>
+			</article>
+			
+			<article class = "job job2">
+				<h3>Chief Executive Officer</h3>
+				<p>My Wife's House Company</p>
+				<p><time datetime="2024-01">Jan 2024</time> - <time datetime="2025-01">Jan 2025</time></p>
+				<p>Developed my extraordinary husband and dad joke skills.</p>
+			</article>			
+		</section>
+		
+		<section id = "education">
+			<h2>Education</h2>
+			<article class = "uni uni1">
+				<h3>Bachelor of Software Engineering</h3>
+				<p>FPT University</p>
+				<p><time datetime="2025-09">Sep 2025</time> - Present</p>
+				<p>Developed my extraordinary gaming and eating skills.</p>
+			</article>			
+		</section>
+	</main>
+	
+	<footer>
+		<p>&#169; Tuan Anh Tran, 2026<p>
+	</footer>
+</body>
+</html>
