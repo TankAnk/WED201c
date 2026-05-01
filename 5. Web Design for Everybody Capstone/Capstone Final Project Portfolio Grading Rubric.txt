@@ -45,8 +45,8 @@ Again, these are just suggestions, please feel free to let your own creativity b
 	The site includes 1 extra enhancement: 10
 	The site does not include any extra enhancements: 0
 
-1. Sticky nav bar
-2. Dark mode toggle
-3. The third viewport layout
+1. The third viewport layout
+2. Sticky nav bar
+3. Dark mode toggle
 4. Animated skill bars
 5. Accessibility optimization like semantics tags, focus state, keyboard navigation

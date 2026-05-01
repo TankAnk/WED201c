@@ -5,21 +5,29 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Tuan Anh Tran Resume Webpage</title>
 	<link rel="icon" href="images/user-profile.png" type="image/x-icon">
+	<link rel="stylesheet" href="stylesheets/main.css">
+	<script src="js/script.js" defer></script>
 </head>
 
 <body>
-	<header>
-		<nav>
-			<ul>
-				<li><a href = "#about">About</a></li>
-				<li><a href = "#skills">Skills</a></li>
-				<li><a href = "#projects">Projects</a></li>
-				<li><a href = "#xp">Experience</a></li>
-				<li><a href = "#education">Education</a></li>
-			</ul>
-		</nav>
-		
-		<section id = "overview">
+	<a href="#main" id="skip_link">Skip to main content</a>
+	<nav id = "nav_bar">
+		<h2 class = "nav_name">Tuan Anh Tran</h2>
+		<button class="nav_toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav_menu">
+			&#9776;
+		</button>
+			
+		<ul id="nav_menu" class = "nav_menu">
+			<li><a href = "#about">About</a></li>
+			<li><a href = "#skills">Skills</a></li>
+			<li><a href = "#projects">Projects</a></li>
+			<li><a href = "#xp">Experience</a></li>
+			<li><a href = "#education">Education</a></li>
+		</ul>
+	</nav>
+	
+	<header id = "overview">		
+		<section>
 			<img src = "images/Dennis_Ritchie.jpg" alt = "Portrait placeholder of Dennis Ritchie">
 			<h1>Tuan Anh Tran</h1>
 			<h2>Bachelor of Software Engineering at FPT University Hanoi</h2>			
@@ -123,7 +131,7 @@
 			<h2>Projects</h2>
 			<article class = "project project1">
 				<figure>
-					<img src = "images/placeholder.jpg" alt = "Screenshot of resume webpage project">
+					<img src = "images/github_web.jpeg" alt = "Screenshot of resume webpage project">
 					<figcaption>My Resume Webpage</figcaption>
 				</figure>
 				<p>I tried to make a my resume as a live webpage. I think it's pretty cool even though my goal is not web dev.</p>
@@ -142,7 +150,7 @@
 
 			<article class = "project project2">
 				<figure>
-					<img src = "images/placeholder2.jpg" alt = "Screenshot of LeetCode attempt project">
+					<img src = "images/github_leetcode.jpeg" alt = "Screenshot of LeetCode attempt project">
 					<figcaption>LeetCode Attempt</figcaption>
 				</figure>
 
@@ -203,8 +211,8 @@
 			<img src="images/facebook.png" alt="Facebook profile">
 		</a>
 	</nav>
-
-	<p>&#169; Tuan Anh Tran, 2026</p>
-</footer>
+	
+		<p>&#169; Tuan Anh Tran, 2026</p>
+	</footer>
 </body>
 </html>
