@@ -18,12 +18,20 @@
 
 	<nav id="nav_bar">
 		<h2 class="nav_name">Tuan Anh Tran</h2>
+		
+		<button
+			class="theme_toggle"
+			aria-label="Toggle dark mode"
+			aria-pressed="false"
+			type="button">
+			&#x1F319;
+		</button>
 
 		<button
 			class="nav_toggle"
 			aria-label="Toggle navigation"
 			aria-expanded="false"
-			aria-controls="nav_menu">
+			aria-controls="nav_menu" type="button">
 			&#9776;
 		</button>
 
@@ -42,10 +50,12 @@
 
 	<header id="overview">
 		<section>
-			<img src="images/Dennis_Ritchie.jpg" alt="Portrait placeholder of Dennis Ritchie">
+			<img src="images/ID.JPG" alt = "My ID Photo">
 
-			<h1>Tuan Anh Tran</h1>
-			<h2>Bachelor of Software Engineering at FPT University</h2>
+				<div class="overview_content">
+					<h1>Tuan Anh Tran</h1>
+					<h2>Bachelor of Software Engineering at FPT University</h2>
+				</div>
 		</section>
 	</header>
 
@@ -56,7 +66,7 @@
 			<div class="about_content">
 				<h3>Hello, World!</h3>
 				<p>
-					My name is Tuan Anh Tran. Lorem ipsum dolor sit amet...
+					My name is Tuan Anh Tran. I am currently enrolling in Bachelor of Software Engineering in FPT University Hanoi. My future goal is to become a Bridge Engineer at FPT Software. If you want, you can contact me, but I barely talk with stranger so may be not.
 				</p>
 			</div>
 
@@ -64,20 +74,30 @@
 				<h3>Basic Information</h3>
 
 				<dl>
-					<dt>Date of Birth</dt>
-					<dd>DD-MM-YYYY</dd>
+					<div class="info_item">
+						<dt>Date of Birth</dt>
+						<dd>DD-MM-YYYY</dd>
+					</div>
+					
+					<div class="info_item">
+						<dt>Email</dt>
+						<dd>sample@gmail.com</dd>
+					</div>
 
-					<dt>Email</dt>
-					<dd>sample@gmail.com</dd>
-
-					<dt>Phone</dt>
-					<dd>+123456789</dd>
-
-					<dt>Address</dt>
-					<dd><address>Hanoi, Vietnam</address></dd>
-
-					<dt>Languages</dt>
-					<dd>Vietnamese, English</dd>
+					<div class="info_item">
+						<dt>Phone</dt>
+						<dd>+123456789</dd>
+					</div>
+					
+					<div class="info_item">
+						<dt>Address</dt>
+						<dd><address>Hanoi, Vietnam</address></dd>
+					</div>
+					
+					<div class="info_item">
+						<dt>Languages</dt>
+						<dd>Vietnamese, English</dd>
+					</div>
 				</dl>
 			</div>
 		</section>
@@ -87,71 +107,75 @@
 
 			<ul>
 				<li>
-					<h3>HTML</h3>
+					<div class="skill_label">
+						<h3>HTML</h3>
+						<span>50%</span>
+					</div>
 
 					<div
 						class="skill_bar"
 						role="progressbar"
 						aria-label="HTML skill level"
-						aria-valuenow="90"
+						aria-valuenow="50"
 						aria-valuemin="0"
 						aria-valuemax="100">
 
 						<div class="skill_fill html"></div>
 					</div>
-
-					<span>90%</span>
 				</li>
 
 				<li>
-					<h3>CSS</h3>
+					<div class="skill_label">
+						<h3>CSS</h3>
+						<span>40%</span>
+					</div>
 
 					<div
 						class="skill_bar"
 						role="progressbar"
 						aria-label="CSS skill level"
-						aria-valuenow="80"
+						aria-valuenow="40"
 						aria-valuemin="0"
 						aria-valuemax="100">
 
 						<div class="skill_fill css"></div>
 					</div>
-
-					<span>80%</span>
 				</li>
 
 				<li>
-					<h3>JavaScript</h3>
+					<div class="skill_label">
+						<h3>JavaScript</h3>
+						<span>25%</span>
+					</div>
 
 					<div
 						class="skill_bar"
 						role="progressbar"
 						aria-label="JavaScript skill level"
-						aria-valuenow="75"
+						aria-valuenow="25"
 						aria-valuemin="0"
 						aria-valuemax="100">
 
 						<div class="skill_fill js"></div>
 					</div>
-
-					<span>75%</span>
 				</li>
 
 				<li>
-					<h3>C</h3>
+					<div class="skill_label">
+						<h3>C</h3>
+						<span>30%</span>
+					</div>
 
 					<div
 						class="skill_bar"
 						role="progressbar"
 						aria-label="C programming skill level"
-						aria-valuenow="70"
+						aria-valuenow="30"
 						aria-valuemin="0"
 						aria-valuemax="100">
 
 						<div class="skill_fill c"></div>
 					</div>
-
-					<span>70%</span>
 				</li>
 			</ul>
 		</section>
@@ -161,11 +185,11 @@
 
 			<article class="project project1">
 				<figure>
-					<img src="images/github_web.jpeg" alt="Screenshot of resume webpage project">
-					<figcaption>My Resume Webpage</figcaption>
+					<img src="images/github_web.jpeg" alt="Homepage preview of personal resume website">
+					<figcaption><h3>My Resume Webpage</h3></figcaption>
 				</figure>
 
-				<p>I tried to make my resume as a live webpage...</p>
+				<p>I tried to make my resume as a live webpage.</p>
 
 				<p>Tools:</p>
 				<ul>
@@ -173,44 +197,49 @@
 					<li>CSS</li>
 					<li>JavaScript</li>
 				</ul>
+				
+				<div class="project_links">
+					<p>
+						<a href="https://tankank.github.io/WED201c/5.%20Web%20Design%20for%20Everybody%20Capstone"
+						   target="_blank"
+						   rel="noopener noreferrer">
+							Live Demo
+						</a>
+					</p>
 
-				<p>
-					<a href="https://tankank.github.io/WED201c/5.%20Web%20Design%20for%20Everybody%20Capstone"
-					   target="_blank"
-					   rel="noopener noreferrer">
-						Live Demo
-					</a>
-				</p>
-
-				<p>
-					<a href="https://github.com/TankAnk/WED201c/tree/main/5.%20Web%20Design%20for%20Everybody%20Capstone"
-					   target="_blank"
-					   rel="noopener noreferrer">
-						Source Code
-					</a>
-				</p>
+					<p>
+						<a href="https://github.com/TankAnk/WED201c/tree/main/5.%20Web%20Design%20for%20Everybody%20Capstone"
+						   target="_blank"
+						   rel="noopener noreferrer">
+							Source Code
+						</a>
+					</p>
+				</div>
 			</article>
 
 			<article class="project project2">
 				<figure>
 					<img src="images/github_leetcode.jpeg" alt="Screenshot of LeetCode attempt project">
-					<figcaption>LeetCode Attempt</figcaption>
+					<figcaption><h3>LeetCode Attempt</h3></figcaption>
 				</figure>
 
-				<p>I tried to raw dog LeetCode questions in pure C.</p>
+				<p>I tried to raw dog LeetCode questions in pure C. It's also pure agony.</p>
 
 				<p>Tools:</p>
 				<ul>
 					<li>C</li>
+					<li>Emacs</li>
 				</ul>
-
-				<p>
-					<a href="https://github.com/TankAnk/LeetCode_Attempt"
-					   target="_blank"
-					   rel="noopener noreferrer">
-						Source Code
-					</a>
-				</p>
+				
+				<div class="project_links">
+					<p>
+						<a href="https://github.com/TankAnk/LeetCode_Attempt"
+						   target="_blank"
+						   rel="noopener noreferrer">
+							Source Code
+						</a>
+					</p>
+				</div>
 			</article>
 		</section>
 
@@ -224,7 +253,12 @@
 					<time datetime="2024-01">Jan 2024</time> -
 					<time datetime="2025-01">Jan 2025</time>
 				</p>
-				<p>Developed my extraordinary gaming and eating skills.</p>
+				<ul class="job_achievements">
+					<li>Developed my extraordinary gaming and eating skills.</li>
+					<li>Managed household operations and scheduling.</li>
+					<li>Improved daily workflow efficiency.</li>
+					<li>Built strong problem-solving and multitasking habits.</li>
+				</ul>
 			</article>
 
 			<article class="job job2">
@@ -234,7 +268,12 @@
 					<time datetime="2024-01">Jan 2024</time> -
 					<time datetime="2025-01">Jan 2025</time>
 				</p>
-				<p>Developed my extraordinary husband and dad joke skills.</p>
+				<ul class="job_achievements">
+					<li>Developed my extraordinary husband and dad joke skills.</li>
+					<li>Managed household operations and scheduling.</li>
+					<li>Improved daily workflow efficiency.</li>
+					<li>Built strong problem-solving and multitasking habits.</li>
+				</ul>
 			</article>
 		</section>
 
@@ -249,32 +288,50 @@
 					<time datetime="2025-09">Sep 2025</time> - Present
 				</p>
 
-				<p>Developed my extraordinary gaming and eating skills.</p>
+				<ul class="edu_details">
+					<li>Relevant coursework: Programming, DSA, Web Development</li>
+					<li>Expected graduation: 2029</li>
+					<li>Participated in software projects and teamwork activities</li>
+				</ul>
+			</article>
+			
+			<article class="uni uni2">
+				<h3>Bachelor of Computer Science</h3>
+				<p>Western Sydney University</p>
+
+				<p>
+					<time datetime="2022-03">Mar 2022</time> - <time datetime="2024-03">Mar 2024</time>
+				</p>
+
+				<ul class="edu_details">
+					<li>Relevant coursework: Programming, DSA, Statistical Desicion Making</li>
+					<li>Participated in software projects and teamwork activities</li>
+				</ul>
 			</article>
 		</section>
 
 	</main>
 
 	<footer>
-		<nav aria-label="Contact and social links">
-			<a href="https://github.com/TankAnk" target="_blank" rel="noopener noreferrer">
-				<img src="images/github.png" alt="GitHub profile">
+		<nav aria-label="Contact and Social Links">
+			<a href="https://github.com/TankAnk" aria-label="GitHub profile" target="_blank" rel="noopener noreferrer">
+				<img src="images/github.png" alt="GitHub Profile">
 			</a>
 
-			<a href="mailto:trantuananh14082003@gmail.com">
-				<img src="images/email.png" alt="Send email">
+			<a href="mailto:trantuananh14082003@gmail.com" aria-label="Gmail Address"> 
+				<img src="images/gmail.png" alt="Send Email">
 			</a>
 
-			<a href="https://www.linkedin.com/in/tuan-anh-tran-63315b25b"
+			<a href="https://www.linkedin.com/in/tuan-anh-tran-63315b25b" aria-label="LinkedIn profile"
 			   target="_blank"
 			   rel="noopener noreferrer">
-				<img src="images/linkedin.png" alt="LinkedIn profile">
+				<img src="images/linkedin.png" alt="LinkedIn Profile">
 			</a>
 
-			<a href="https://www.facebook.com/tuanannh.tran.35"
+			<a href="https://www.facebook.com/tuanannh.tran.35" aria-label="Facebook profile"
 			   target="_blank"
 			   rel="noopener noreferrer">
-				<img src="images/facebook.png" alt="Facebook profile">
+				<img src="images/facebook.png" alt="Facebook Profile">
 			</a>
 		</nav>
 
