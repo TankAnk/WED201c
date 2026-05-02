@@ -392,7 +392,7 @@ section article, section div
 	padding: 4rem 1.5rem;
 	background-color: var(--color_background);
 	display: grid;
-	grid-template-columns: 1.2fr 0.8fr;
+	grid-template-columns: 1fr;
 	gap: 2.5rem;
 	align-items: start;
 	max-width: 1000px;
@@ -1163,7 +1163,7 @@ body.dark_mode
 	}
 }
 
-@media screen and (min-width: 768px)
+@media screen and (min-width: 750px)
 {
 	/*Navigation*/
 	.nav_toggle
