@@ -964,13 +964,9 @@ footer nav a
 
 footer nav a:hover, footer nav a:focus-visible
 {
-	transform: translateY(-4px);
+	transform: translateY(-5px);
 
 	border-color: var(--color_accent);
-
-	box-shadow:
-		0 8px 20px rgba(15, 23, 42, 0.08),
-		0 4px 10px rgba(15, 23, 42, 0.05);
 }
 
 footer nav img
@@ -1161,7 +1157,7 @@ body.dark_mode
 }
 
 @media screen and (min-width: 768px)
-{
+{	
 	/*Navigation*/
 	.nav_toggle
 	{
